@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Coins from './components/Coins/Coins';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path = "/contact" element={<Contact></Contact>}></Route>
           <Route path = "/about" element={<About></About>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
