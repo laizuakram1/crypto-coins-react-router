@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CoinCard = ({ coin }) => {
-    console.log(coin);
     const { image, name, symbol } = coin;
     return (
         <div className='flex justify-between bg-white w-[250px] rounded-2xl shadow-lg p-5'>
