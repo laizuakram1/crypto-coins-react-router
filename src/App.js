@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div >
+    <div className='bg-gray-100' >
       <Header></Header>
       <Routes>
           <Route path = "/" element={<Homepage></Homepage>}></Route>
