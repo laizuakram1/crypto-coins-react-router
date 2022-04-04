@@ -13,7 +13,7 @@ import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
-    <div className='bg-gray-100' >
+    <div className='bg-gray-100 mx-auto' >
       <Header></Header>
       <Routes>
         <Route path="/" element={<Homepage></Homepage>}></Route>
